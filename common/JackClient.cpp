@@ -646,8 +646,8 @@ inline bool JackClient::WaitSync()
             return true;
         }
 #endif
-        jack_error("SuspendRefNum error");
-        return false;
+        jack_error("SuspendRefNum error edited");
+        return true;
     } else {
         return true;
     }
